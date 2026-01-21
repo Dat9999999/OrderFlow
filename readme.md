@@ -1,6 +1,6 @@
-# 🍽️ Scalable Restaurant POS Backend
+# 🛒 OrderFlow - Retail POS Backend
 
-A high-performance, concurrency-optimized **Point of Sale (POS)** system designed for the F&B industry. This project serves as a deep dive into **Java Core**, multithreading, and scalable backend architecture.
+A high-performance, concurrency-optimized **Point of Sale (POS)** system designed for the retail industry. This project serves as a deep dive into **Java Core**, multithreading, and scalable backend architecture.
 
 ---
 
@@ -53,7 +53,7 @@ While the system is a monolith, it follows **Clean Architecture** principles. Ea
 ## 📂 Project Structure (Server-side)
 
 ```text
-src/main/java/com/project/pos/
+src/main/java/com/example/orderflow/
 ├── ⚙️ config/         # Concurrency & Cache Configurations
 ├── 🕹️ controller/     # REST API Endpoints
 ├── 🧠 service/        # Business Logic & Thread Management
